@@ -6,16 +6,18 @@
       <title>Document</title>
       <link rel="stylesheet" href="./vendor/normalize.css" />
       <link rel="stylesheet" href="./page/index.css" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
       <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap"
         rel="stylesheet"
       />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
       <link
         href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
         rel="stylesheet"
@@ -23,35 +25,37 @@
     </head>
     <body class="page">
       <header class="header">
-        <h1 class="header__title">Skating in the Tranquil Night</h1>
-
+        <div class="title-container">
+          <h1 class="header__title">悲莫悲兮生別離, 樂莫樂兮新相知</h1>
+          <div class="play-button-frame">
+            <button class="play-button" id="playPauseButton">
+              <span class="play-text">Play</span>
+            </button>
+          </div>
+        </div>
         <div class="header__cards">
           <div class="card">
-            <img src="./images/IMG_4606.JPG" alt="Huerta" class="card__image" />
-            <p class="card__description">Cymbeline</p>
+            <img src="./images/閒雲.jpg" alt="詩經-關雎" />
+            <p class="card__description">花與</p>
             <ul class="card__list">
               <li>
                 <a
                   href="https://instagram.com/samuel010117?igshid=MmIzYWVlNDQ5Yg=="
                   class="card__link"
-                  >夜色獨行</a
+                  >執子之手</a
                 >
               </li>
             </ul>
           </div>
           <div class="card">
-            <img
-              class="card__image"
-              src="./images/IMG_4611.JPG"
-              alt="Samuel & Huerta"
-            />
-            <p class="card__description">As you like it</p>
+            <img class="card__image" src="./images/惜花.jpg" alt="詩經-關雎" />
+            <p class="card__description">人間</p>
             <ul class="card__list">
               <li>
                 <a
                   href="https://www.facebook.com/profile.php?id=100083196229378&mibextid=LQQJ4d"
                   class="card__link"
-                  >是我</a
+                  >落花似流年</a
                 >
               </li>
             </ul>
@@ -59,49 +63,45 @@
           <div class="card">
             <img
               class="card__image"
-              src="./images/IMG_4607.JPG"
-              alt="Samuel & Huerta"
+              src="./images/月下思.jpg"
+              alt="詩經-關雎"
             />
-            <p class="card__description">The midsummer night's dream...</p>
+            <p class="card__description">事一同</p>
             <ul class="card__list">
               <li>
                 <a
                   href="https://www.facebook.com/profile.php?id=100078670696811&mibextid=LQQJ4d"
                   class="card__link"
-                  >一貫的姿態</a
+                  >月下思</a
                 >
               </li>
             </ul>
           </div>
         </div>
-        <!-- <div class="overlay"></div> -->
+        <div class="text-container">
+          <p class="dancing-text">
+            關鴡(周南)<br />關關雎鳩,在河之洲.窈窕淑女,君子好逑.<br />參差荇菜,左右流之.窈窕淑女,寤寐求之.<br />求之不得,寤寐思服.悠哉悠哉,輾轉反側.<br />參差荇菜,左右采之.窈窕淑女,琴瑟友之.<br />參差荇菜,左右芼之.窈窕淑女,鐘鼓樂之.
+          </p>
+          <audio id="music" controls>
+            <source src="./music/Rio Grande Dr 4.m4a" type="audio/mpeg" />
+          </audio>
+        </div>
       </header>
       <section class="iframe iframe__music">
-        <div class="iframe__title">Oh, why you got to be so cold?</div>
+        <div class="iframe__title">桃之夭夭,灼灼其華.之子於歸,宜其室家</div>
         <div class="iframe__item">
           <iframe
             style="border-radius: 12px"
-            src="https://open.spotify.com/embed/artist/6J7rw7NELJUCThPbAfyLIE?utm_source=generator"
+            src="https://open.spotify.com/embed/track/5R1wvAsC3Pozj1A1tXGWKL?utm_source=generator"
             width="100%"
             height="352"
             frameborder="0"
             allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
-          >
-            >listen to
-            <a
-              href="https://open.spotify.com/track/04WE0HmjYipIMvNARHWpTk?si=2484d1fa46254e21"
-              >20 Years</a
-            >
-            -
-            <a
-              href="https://open.spotify.com/album/4uWgDFxGAp7XlVSHuVBv4E?si=Pvh9wXouSYuPRvpH0U0Gqw"
-            ></a
-            >Spotify</iframe
-          >
+          ></iframe>
         </div>
-        <p class="iframe__address">&copy June*firefly</p>
+        <p class="iframe__address">&copy 今我來思</p>
       </section>
     </body>
   </html>
