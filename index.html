@@ -1,108 +1,102 @@
-<DOCTYPE! html>
-  <html lang="en">
-    <head>
-      <meta chartset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <link rel="stylesheet" href="./vendor/normalize.css" />
-      <link rel="stylesheet" href="./page/index.css" />
-      <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-      <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap"
-        rel="stylesheet"
-      />
-      <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-      <link
-        href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
-        rel="stylesheet"
-      />
-    </head>
-    <body class="page">
-      <header class="header">
-        <div class="title-container">
-          <h1 class="header__title">悲莫悲兮生別離, 樂莫樂兮新相知</h1>
-          <div class="play-button-frame">
-            <button class="play-button" id="playPauseButton">
-              <span class="play-text">Play</span>
-            </button>
-          </div>
-        </div>
-        <div class="header__cards">
-          <div class="card">
-            <img src="./images/閒雲.jpg" alt="詩經-關雎" />
-            <p class="card__description">花與</p>
-            <ul class="card__list">
-              <li>
-                <a
-                  href="https://instagram.com/samuel010117?igshid=MmIzYWVlNDQ5Yg=="
-                  class="card__link"
-                  >執子之手</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <img class="card__image" src="./images/惜花.jpg" alt="詩經-關雎" />
-            <p class="card__description">人間</p>
-            <ul class="card__list">
-              <li>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100083196229378&mibextid=LQQJ4d"
-                  class="card__link"
-                  >落花似流年</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <img
-              class="card__image"
-              src="./images/月下思.jpg"
-              alt="詩經-關雎"
-            />
-            <p class="card__description">事一同</p>
-            <ul class="card__list">
-              <li>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100078670696811&mibextid=LQQJ4d"
-                  class="card__link"
-                  >月下思</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="text-container">
-          <p class="dancing-text">
-            關鴡(周南)<br />關關雎鳩,在河之洲.窈窕淑女,君子好逑.<br />參差荇菜,左右流之.窈窕淑女,寤寐求之.<br />求之不得,寤寐思服.悠哉悠哉,輾轉反側.<br />參差荇菜,左右采之.窈窕淑女,琴瑟友之.<br />參差荇菜,左右芼之.窈窕淑女,鐘鼓樂之.
-          </p>
-          <audio id="music" controls>
-            <source src="./music/Rio Grande Dr 4.m4a" type="audio/mpeg" />
-          </audio>
+<!DOCTYPE html>
+<html lang="ch">
+  <head>
+    <meta chartset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>關鴡(周南)</title>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./page/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="page">
+    <div class="page__content">
+      <header class="header page__section">
+        <h1 class="header__title">悲莫悲兮生別離, 樂莫樂兮新相知</h1>
+        <div class="play-button-frame">
+          <button class="play-button" id="playPauseButton">
+            <span class="play-text">Play</span>
+          </button>
         </div>
       </header>
-      <section class="iframe iframe__music">
-        <div class="iframe__title">桃之夭夭,灼灼其華.之子於歸,宜其室家</div>
-        <div class="iframe__item">
-          <iframe
-            style="border-radius: 12px"
-            src="https://open.spotify.com/embed/track/5R1wvAsC3Pozj1A1tXGWKL?utm_source=generator"
-            width="100%"
-            height="352"
-            frameborder="0"
-            allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
-        </div>
-        <p class="iframe__address">&copy 今我來思</p>
-      </section>
-    </body>
-  </html>
-</DOCTYPE!>
+      <main class="content">
+        <section class="gallery page__section">
+          <ul class="gallery__cards">
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/閒雲.jpg"
+                alt="詩經-關雎"
+              />
+              <p class="card__description">花與</p>
+              <a
+                href="https://instagram.com/samuel010117?igshid=MmIzYWVlNDQ5Yg=="
+                class="card__link"
+                >執子之手</a
+              >
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/惜花.jpg"
+                alt="詩經-關雎"
+              />
+              <p class="card__description">人間</p>
+              <a
+                href="https://www.facebook.com/profile.php?id=100083196229378&mibextid=LQQJ4d"
+                class="card__link"
+                >落花似流年</a
+              >
+            </li>
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/月下思.jpg"
+                alt="詩經-關雎"
+              />
+              <p class="card__description">事一同</p>
+              <a
+                href="https://www.facebook.com/profile.php?id=100078670696811&mibextid=LQQJ4d"
+                class="card__link"
+                >月下思</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="quote page__section">
+          <p class="quote__dancing-text">
+            關鴡(周南)<br />關關雎鳩,在河之洲.窈窕淑女,君子好逑.<br />參差荇菜,左右流之.窈窕淑女,寤寐求之.<br />求之不得,寤寐思服.悠哉悠哉,輾轉反側.<br />參差荇菜,左右采之.窈窕淑女,琴瑟友之.<br />參差荇菜,左右芼之.窈窕淑女,鐘鼓樂之.
+          </p>
+          <audio class="audio" id="music" controls>
+            <source src="./music/Rio Grande Dr 4.m4a" type="audio/mpeg" />
+          </audio>
+        </section>
+        <section class="iframe page__section">
+          <h2 class="iframe__title">桃之夭夭,灼灼其華.之子於歸,宜其室家</h2>
+          <div class="iframe__item">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/track/5R1wvAsC3Pozj1A1tXGWKL?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+      <footer class="footer page__section">
+        <p class="footer__copyright">&copy; 2023 今我來思</p>
+      </footer>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
