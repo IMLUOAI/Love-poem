@@ -1,0 +1,19 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+ }
+ 
+ .header__title {
+   font-family: 'Monoton', cursive;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 50px; 
+   color: #fff;
+   margin: 45px auto 45px 30px;
+ }
+ 

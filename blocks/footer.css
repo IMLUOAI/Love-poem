@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+  }
+  
+  .footer__copyright {
+  font-family:'Noto', 'Times New Roman', 'serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 15px 30px 20px auto;
+  }

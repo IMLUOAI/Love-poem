@@ -1,0 +1,40 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 30px;
+  }
+  
+  .quote__dancing-text {
+    font-family:'Noto Serif TC', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1em; 
+    color: #e0d1d1;
+    display: inline-block;
+    transform-origin: center bottom;
+    animation: dance 6s infinite;
+    margin: 40px auto;
+  }
+  
+  
+  
+  @keyframes dance {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    80% {
+      transform: translateY(50px);
+    }
+    60% {
+      transform: translateY(-40px);
+    }
+  }
+  
+  
+  
